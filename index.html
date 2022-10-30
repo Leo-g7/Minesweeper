@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="module" src="demineur.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="page">
+      <h1>Démineur</h1>
+      <div calss="menu">
+        <div class="menu-line">
+          <div class="menu-item">
+            <select id="difficulty">
+              <option value="1" selected="selected">Facile</option>
+              <option value="2">Moyen</option>
+              <option value="3">Difficile</option>
+            </select>
+          </div>
+          <div class="menu-item" id="replay"><button>Rejouer</button></div>
+        </div>
+        <div class="menu-line">
+          <div id="result" class="menu-item"></div>
+          <div id="timer" class="menu-item">00:00</div>
+          <div class="menu-item"><button id="pause">Pause</button></div>
+        </div>
+      </div>
+
+      <div id="grid" class="grid"></div>
+    </div>
+  </body>
+</html>

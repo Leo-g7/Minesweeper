@@ -1,0 +1,100 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  background-color: rgb(98, 98, 98);
+}
+
+h1 {
+  margin: 10px auto;
+  color: white;
+}
+
+.grid {
+  margin: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  display: flex;
+  flex: 1;
+  height: 50px;
+}
+
+.menu-line {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.menu-item {
+  margin: 5px;
+  color: white;
+}
+
+.node {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid black;
+  font-weight: bold;
+  background-color: rgb(195, 195, 195);
+}
+
+.page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* mine css */
+
+.zeroMine {
+  background-color: lightgrey;
+}
+
+.oneMine {
+  background-color: lightgrey;
+  color: blue;
+}
+
+.twoMine {
+  background-color: lightgrey;
+  color: green;
+}
+
+.threeMine {
+  background-color: lightgrey;
+  color: red;
+}
+
+.fourMine {
+  background-color: lightgrey;
+  color: purple;
+}
+
+.fiveMine {
+  background-color: lightgrey;
+  color: maroon;
+}
+
+.sixMine {
+  background-color: lightgrey;
+  color: turquoise;
+}
+
+.sevenMine {
+  background-color: lightgrey;
+  color: black;
+}
+
+.eightMine {
+  background-color: lightgrey;
+  color: grey;
+}
